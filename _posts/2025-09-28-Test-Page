@@ -1,47 +1,19 @@
 ---
-title: Test Post With Cripy
-date: 2025-09-28
-categories: [TOP_CATEGORY, SUB_CATEGORY]
-tags: [my tags, and one more]     # TAG names should always be lowercase
+title: "My new Post"
+date: 2025-09-28 14:00:00 +0000
+categories: [blog]
+tags: [jekyll, chirpy, tutorial]
+author: Me
+comments: true
 ---
 
 
-Heading
-=======
+New posrt on Chirpy. 🚀
 
-Sub-heading
------------
+## Sub-heading
 
-# Alternative heading
+Test Code:
 
-## Alternative sub-heading
-
-Text attributes _italic_, **bold**, `monospace`.
-
-Horizontal rule:
-
----
-
-
-Bullet lists nested within numbered list:
-
-  1. fruits
-     * apple
-     * banana
-  2. vegetables
-     - carrot
-     - broccoli
-
-
-
-
-A [link](http://example.com).
-
-![Image](Icon-pictures.png "icon")
-
-> Markdown uses email-style
-characters for blockquoting.
->
-> Multiple paragraphs need to be prepended individually.
-
-Most inline <abbr title="Hypertext Markup Language">HTML</abbr> tags are supported.
+```python
+print("Hello, Chirpy!")
+```
